@@ -12,9 +12,10 @@
     font-display: swap; /* Ensures text is displayed while font loads */
 }
 
+/*STYLES*/
 
 /*
-font-family: 'Departure Mono, monospace;
+font-family: "Departure Mono", monospace;
 font-family: 'Georgia',serif;
 
 font-family: "the-seasons", sans-serif;
@@ -29,6 +30,15 @@ font-family: "the-seasons", sans-serif;
 font-weight: 700;
 font-style: normal;
 */
+
+/*
+text
+color:#444;
+
+hightlight
+color:#fff0bd;
+*/
+
 
 
 /* General Reset */
@@ -251,6 +261,10 @@ header {
   text-decoration: none;
 }
 
+.menu-item a:hover{
+    color:#fff0bd;
+}
+
 /*
 .menu-footer {
   position: relative;
@@ -273,22 +287,31 @@ header {
     color:#ccc;
 }
 
+.menu-footer a:hover{
+    color:#fff0bd;
+}
+
 .menu-footer p span{
-    font-weight: 700;
-    font-size: .6em;
+    font-family: "Departure Mono", monospace;
+    font-style: normal;
+    font-size: .5em;
 }
 
 .menu-footer p a{
+    font-family: "Departure Mono", monospace;
+    font-style: normal;
     color:#ccc;
     text-decoration: none;
-    font-size: .6em;
+    font-size: .5em;
 }
 
 .menu-footer img{
-    width:25px;
-    height:25px;
+    width:20px;
+    height:20px;
+    filter: invert(1) brightness(2);
     cursor: pointer;
 }
+
 
 /*
 .social-icons a {
@@ -374,11 +397,12 @@ header {
     margin-top: 80px;
 }
 
-#profile span {
+/*span class in profile*/
+.edtechxd {
     font-family: "the-seasons", sans-serif;
     font-weight: 400;
     font-style: italic;
-}
+} 
 
 #profile a.highlight-podcast {
     color: black;
@@ -546,24 +570,31 @@ header {
 
 .author {
     font-family: "Departure Mono", monospace;
-    padding: 40px 0 60px 0;
-    border-bottom: 1px solid #444;
-}
-
-.author {
     font-size: 0.75em;
     line-height: 1.4em;
     padding: 20px 16px 40px 16px;
+    border-bottom: 1px solid #444;
+}
+
+.author span{
+    font-family: "Departure Mono", monospace;
+    color:dimgray;
 }
 
 .author a {
     font-size: 1em;
     text-decoration: none;
     color: #444;
+    border-bottom: 1px solid #444;
+    padding-bottom:1px;
+}
+
+.author a:hover{
+    color:##fff0bd;
 }
 
 footer {
-    margin: 70px 0 40px 0;
+    margin: 50px 0 60px 0;
     width: 100%;
     height: 100px;
     /*    border:solid 1px red;*/
@@ -720,7 +751,7 @@ body.alt-mode .hr-titles span{
 }
 
 .theme-btn:hover {
-  color: #ffa500;
+  color: #fff0bd;
 }
 
 
