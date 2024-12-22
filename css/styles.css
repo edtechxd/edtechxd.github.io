@@ -713,7 +713,7 @@ body.alt-mode .hr-titles span{
 .theme-btn {
   background: none;
   border: none;
-  font-size: 20px;
+  font-size: 30px;
   cursor: pointer;
   color: var(--text-color);
   transition: color 0.3s ease;
