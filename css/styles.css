@@ -5,8 +5,8 @@
 @font-face {
     font-family: "DepartureMono-Regular", monospace;
     src:
-        url("../fonts/DepartureMono-Regular.woff2") format("woff2"),
-        url("../fonts/DepartureMono-Regular.woff") format("woff");
+        url("https://edtechxd.me/fonts/DepartureMono-Regular.woff2") format("woff2"),
+        url("https://edtechxd.me/fonts/DepartureMono-Regular.woff") format("woff");
     font-weight: normal;
     font-style: normal;
     font-display: swap; /* Ensures text is displayed while font loads */
