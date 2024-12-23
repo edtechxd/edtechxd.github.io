@@ -2,12 +2,24 @@
 
 @import url("https://use.typekit.net/tlj3vwy.css");
 
+/*
 @font-face {
         font-family: "Departure Mono", monospace;
         src: url("fonts/DepartureMono-Regular.woff2") format("woff2"),
              url("fonts/DepartureMono-Regular.woff") format("woff"),
              url("fonts/DepartureMono-Regular.otf") format("opentype");
     }
+*/
+
+@font-face {
+    font-family: 'departure_monoregular';
+    src: url('../fonts/departuremono-regular-webfont.woff2') format('woff2'),
+         url('../fonts/departuremono-regular-webfont.woff') format('woff'),
+        url('../fonts/DepartureMono-Regular.otf') format("opentype");
+    font-weight: normal;
+    font-style: normal;
+
+}
 
 /*STYLES*/
 
@@ -110,7 +122,8 @@ header {
 }
 
 #ticker {
-    font-family: "Departure Mono", monospace;
+    font-family: 'departure_monoregular', monospace;
+/*    font-family: "Departure Mono", monospace;*/
     display: inline-block;
     font-size: .75em;
 /*  animation: scroll 10s linear infinite;*/
