@@ -2,15 +2,6 @@
 
 @import url("https://use.typekit.net/tlj3vwy.css");
 
-/*
-@font-face {
-        font-family: "Departure Mono", monospace;
-        src: url("fonts/DepartureMono-Regular.woff2") format("woff2"),
-             url("fonts/DepartureMono-Regular.woff") format("woff"),
-             url("fonts/DepartureMono-Regular.otf") format("opentype");
-    }
-*/
-
 @font-face {
     font-family: 'departure_monoregular';
     src: url('../fonts/departuremono-regular-webfont.woff2') format('woff2'),
@@ -24,8 +15,8 @@
 /*STYLES*/
 
 /*
-font-family: "Departure Mono", monospace;
-font-family: 'Georgia',serif;
+font-family: 'departure_monoregular';
+font-family: 'Garamond',serif;
 
 font-family: "the-seasons", sans-serif;
 font-weight: 400;
@@ -65,6 +56,13 @@ color:#fff0bd;
 
 html {
     font-size: 100%;
+}
+
+:root{
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 body {
@@ -216,7 +214,7 @@ header {
 }
 
 .menu-item span {
-  font-family: "Departure Mono", monospace;
+  font-family: 'departure_monoregular', monospace;
   font-size: .75em;
   color: #ccc;
 }
@@ -255,13 +253,13 @@ header {
 }
 
 .menu-footer p span{
-    font-family: "Departure Mono", monospace;
+    font-family: 'departure_monoregular', monospace;
     font-style: normal;
     font-size: .5em;
 }
 
 .menu-footer p a{
-    font-family: "Departure Mono", monospace;
+    font-family: 'departure_monoregular', monospace;
     font-style: normal;
     color:#ccc;
     text-decoration: none;
@@ -319,7 +317,7 @@ header {
 }
 
 .hr-titles span {
-    font-family: "Departure Mono", monospace;
+    font-family: 'departure_monoregular', monospace;
     font-size: .44em;
     text-transform: lowercase;
     letter-spacing: 0.3em;
@@ -505,7 +503,6 @@ header {
     background: rgba(125, 125, 125, 0.18);
 }
 
-
 .sig{
     width:64px;
     height:117px;
@@ -514,7 +511,7 @@ header {
 /*44x79 or 64x117*/
 
 .author {
-    font-family: "Departure Mono", monospace;
+    font-family: 'departure_monoregular', monospace;
     font-size: 0.75em;
     line-height: 1.4em;
     padding: 20px 16px 40px 16px;
@@ -522,8 +519,7 @@ header {
 }
 
 .author span{
-    font-family: "Departure Mono", monospace;
-    color:dimgray;
+    font-family: 'departure_monoregular', monospace;
 }
 
 .author a {
@@ -534,9 +530,6 @@ header {
     padding-bottom:1px;
 }
 
-.author a:hover{
-    color:##fff0bd;
-}
 
 footer {
     margin: 50px 0 60px 0;
@@ -556,7 +549,7 @@ footer {
 }
 
 .say p {
-    font-family: "Departure Mono", monospace;
+    font-family: 'departure_monoregular', monospace;
     font-size: 0.75em;
     line-height: 1.4em;
     float: left;
@@ -568,7 +561,7 @@ footer {
     display: block;
     width: 100%;
     height: 20px;
-    font-family: "Departure Mono", monospace;
+    font-family: 'departure_monoregular', monospace;
     font-size: 0.75em;
     line-height: 1.75em;
     text-align: center;
@@ -648,10 +641,14 @@ body.dark-mode #profile a.highlight-email:hover{
     color:#000;
 }
 
-body.dark-mode .author{
+body.dark-mode .author, body.dark-mode .author a{
     border-bottom:1px solid #fff;
 }
 
+body.dark-mode .author a:hover{
+    color:#fff0bd;
+    border-bottom:1px solid #fff0bd;
+}
 
 body.dark-mode .sig img{
    filter: invert(1) brightness(2);
