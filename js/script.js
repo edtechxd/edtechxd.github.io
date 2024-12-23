@@ -12,7 +12,7 @@ function toggleMenu() {
 
 // JavaScript Ticker
 const tickerTexts = [
-  "📱 tap-tap-scroll-click…",
+  "📱 tap-tap-scroll-click… Rotting",
   "🧘🏾‍♂️ Wellness: Meditating",
   "📚 Reading: Ikigai",
   "🏃🏾‍➡️ Running: Peloton 30 min HIIT",
@@ -24,7 +24,7 @@ const tickerTexts = [
   "📺 Watching: Golden Girls",
   "✍🏾 Writing: GenAI Research Paper", 
   
-  "📱 click-click-tap… Send Email",
+  "📱 click-click-tap… Sending Emails",
   "📚 Reading: Zen in the Art of Archery",
   "🏃🏾‍➡️ Running: 45min LIT",
   "🎧 Listening: André 3000",
@@ -34,7 +34,7 @@ const tickerTexts = [
   "✍🏾 Writing: Design Tutorials",
   "👨🏾‍💻 Working: App Design",
   
-  "📱 click-click… Join Meeting",
+  "📱 click-click… Joining Meeting",
   "🧘🏾‍♂️ Wellness: Yoga",
   "📚 Reading: Ichigo Ichie",
   "🏃🏾‍➡️ Running: 5km Pace",
